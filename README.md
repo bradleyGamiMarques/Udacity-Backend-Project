@@ -26,7 +26,7 @@ On which days did more than 1% of requests lead to errors?
 To get started with this project you will need to have a couple of files.
 
 * A Unix style terminal. Windows users, I prefer Git Bash. Mac users your regular terminal will be fine.
-* The SQL database. This is located in the repository named newsdata.sql
+* The SQL database. [Found here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) Make sure to unzip the file.
 * The tools Vagrant and VirtualBox
 * The virtual machine files: https://s3.amazonaws.com/video.udacity-data.com/topher/2018/April/5acfbfa3_fsnd-virtual-machine/fsnd-virtual-machine.zip
 * The Python code logs.py also located in the repository.
