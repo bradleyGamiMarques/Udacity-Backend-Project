@@ -122,6 +122,7 @@ def display_high_error_count():
     cur.close()
     conn.close()
 
+
 display_top_three_articles()
 display_top_three_authors()
 display_high_error_count()
