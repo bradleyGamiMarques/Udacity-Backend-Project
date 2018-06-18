@@ -1,4 +1,4 @@
-#! /usr/bin/python2.7
+#! /usr/bin/env/python2.7
 import psycopg2
 import datetime
 # Define the problem.
@@ -37,7 +37,6 @@ def display_top_three_articles():
     # Close communication with the database.
     cur.close()
     conn.close()
-    
 
 # Define the problem.
 # Problem 2: Who are the most popular article authors of all time?
@@ -122,8 +121,7 @@ def display_high_error_count():
     # Close communication with the database.
     cur.close()
     conn.close()
-    
-    
+
 display_top_three_articles()
 display_top_three_authors()
 display_high_error_count()
